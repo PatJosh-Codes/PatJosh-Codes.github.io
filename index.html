@@ -41,7 +41,6 @@
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#cv">CV</a>
         <a href="#contact">Contact</a>
@@ -95,14 +94,6 @@
           <div class="links reveal reveal-delay-4">
 
             <a
-              href="https://scholar.google.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Google Scholar
-            </a>
-
-            <a
               href="https://github.com/PatJosh-Codes"
               target="_blank"
               rel="noopener noreferrer"
@@ -116,14 +107,6 @@
               rel="noopener noreferrer"
             >
               LinkedIn
-            </a>
-
-            <a
-              href="https://orcid.org/0009-0008-9416-284X"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ORCID
             </a>
 
             <a href="mailto:patjosh59@gmail.com">
@@ -178,20 +161,11 @@
             </p>
 
             <p>
-              My research interests are centered on visual representation
-              learning, Vision Transformers, model capacity, and robust
-              generalization under distribution shift.
-            </p>
-
-            <p>
               I use synthetic-image and deepfake detection as a practical
               testbed for studying how visual models behave when the data
-              distribution changes.
-            </p>
-
-            <p>
-              Before my M.Tech, I completed a B.Sc. in Computer Science
-              at Taraba State University, Nigeria, in February 2025.
+              distribution changes. Before my M.Tech, I completed a B.Sc.
+              in Computer Science at Taraba State University, Nigeria,
+              in February 2025.
             </p>
 
           </div>
@@ -294,127 +268,6 @@
 
           </article>
 
-
-          <article class="research-card reveal reveal-delay-3">
-
-            <span class="card-number">04</span>
-
-            <h3>
-              Model Adaptation
-            </h3>
-
-            <p>
-              Exploring what should be changed or preserved when adapting
-              vision foundation models to new environments and tasks.
-            </p>
-
-          </article>
-
-        </div>
-
-
-        <!-- CURRENT STUDY -->
-        <div class="research-study reveal">
-
-          <div class="study-heading">
-
-            <p class="eyebrow">Current Study</p>
-
-            <h3>
-              Capacity vs. Generalization
-            </h3>
-
-          </div>
-
-          <p>
-            My current experimental work studies whether increasing model
-            capacity necessarily improves robustness when a vision model
-            encounters a new data distribution.
-          </p>
-
-
-          <div class="model-comparison">
-
-            <div class="model-box">
-
-              <span class="model-label">
-                DeiT-Tiny
-              </span>
-
-              <strong>5.5M</strong>
-
-              <small>parameters</small>
-
-            </div>
-
-
-            <div class="model-box">
-
-              <span class="model-label">
-                ViT-Base
-              </span>
-
-              <strong>85.8M</strong>
-
-              <small>parameters</small>
-
-            </div>
-
-          </div>
-
-
-          <div class="table-wrap">
-
-            <table>
-
-              <thead>
-
-                <tr>
-                  <th>Model</th>
-                  <th>Seed</th>
-                  <th>ID ROC-AUC</th>
-                  <th>Cross ROC-AUC</th>
-                </tr>
-
-              </thead>
-
-              <tbody>
-
-                <tr>
-                  <td>DeiT-Tiny</td>
-                  <td>42</td>
-                  <td>0.999899</td>
-                  <td>0.523710</td>
-                </tr>
-
-                <tr>
-                  <td>DeiT-Tiny</td>
-                  <td>123</td>
-                  <td>0.999950</td>
-                  <td>0.511677</td>
-                </tr>
-
-                <tr>
-                  <td>ViT-Base</td>
-                  <td>42</td>
-                  <td>0.998747</td>
-                  <td>0.539869</td>
-                </tr>
-
-              </tbody>
-
-            </table>
-
-          </div>
-
-
-          <p class="research-note">
-            These preliminary results show a large difference between
-            in-distribution and cross-distribution performance. The study
-            is ongoing, and the current evidence is not sufficient to make
-            a general conclusion about model capacity.
-          </p>
-
         </div>
 
 
@@ -504,72 +357,8 @@
     </section>
 
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
-
-      <div class="wrap">
-
-        <div class="section-heading reveal">
-
-          <p class="eyebrow">Projects</p>
-
-          <h2>Selected Work</h2>
-
-        </div>
-
-
-        <div class="project-grid">
-
-          <article class="project-card reveal">
-
-            <span class="card-number">01</span>
-
-            <h3>
-              Capacity vs. Generalization Study
-            </h3>
-
-            <p>
-              Experimental comparison of compact and larger Vision
-              Transformer models under in-distribution and
-              cross-distribution evaluation.
-            </p>
-
-            <span class="project-meta">
-              Computer Vision · ViTs · Robustness
-            </span>
-
-          </article>
-
-
-          <article class="project-card reveal reveal-delay-1">
-
-            <span class="card-number">02</span>
-
-            <h3>
-              Frequency–Spatial Fusion
-            </h3>
-
-            <p>
-              A research direction exploring the combination of spatial
-              and frequency-domain information for more generalizable
-              synthetic-image detection.
-            </p>
-
-            <span class="project-meta">
-              Deepfake Detection · Representation Learning
-            </span>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
     <!-- EXPERIENCE -->
-    <section id="experience" class="section section-alt">
+    <section id="experience" class="section">
 
       <div class="wrap">
 
@@ -596,19 +385,10 @@
                 Shobhit Institute of Engineering and Technology
               </p>
 
-              <ul>
-                <li>
-                  Research on Vision Transformer architectures for
-                  synthetic media and deepfake detection.
-                </li>
-                <li>
-                  CNN–ViT hybrid exploration for local–global feature fusion.
-                </li>
-                <li>
-                  Delivered a 30-slide departmental seminar on the
-                  architectural transition from CNNs to Vision Transformers.
-                </li>
-              </ul>
+              <p class="job-summary">
+                Research on Vision Transformers for synthetic media and
+                deepfake detection.
+              </p>
 
             </div>
 
@@ -625,15 +405,9 @@
 
               <p class="job-org">CRTV</p>
 
-              <ul>
-                <li>
-                  Supported live media streaming production and
-                  broadcasting operations.
-                </li>
-                <li>
-                  Produced and edited visual content for a broad audience.
-                </li>
-              </ul>
+              <p class="job-summary">
+                Supported live streaming production and broadcasting.
+              </p>
 
             </div>
 
@@ -650,186 +424,13 @@
 
               <p class="job-org">Sandlip Digital Consulting</p>
 
-              <ul>
-                <li>
-                  Built web features with HTML, CSS, JavaScript, PHP, and
-                  MySQL under senior developer guidance.
-                </li>
-              </ul>
-
-            </div>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ACTIVITIES -->
-    <section id="activities" class="section">
-
-      <div class="wrap">
-
-        <div class="section-heading reveal">
-
-          <p class="eyebrow">
-            Additional Experience
-          </p>
-
-          <h2>
-            What I Do
-          </h2>
-
-          <p>
-            Beyond research, I work across media production, technical
-            training, community outreach, and technology-driven activities.
-          </p>
-
-        </div>
-
-
-        <div class="experience-grid">
-
-
-          <!-- FIRST VOLUNTEERING -->
-
-          <article class="experience-card reveal">
-
-            <div class="experience-image">
-
-              <img
-                class="img-top"
-                src="assets/images/volunteering.jpeg"
-                alt="Volunteers at a technology event check-in table with lanyards and badges"
-                loading="lazy"
-              >
-
-            </div>
-
-            <div class="experience-content">
-
-              <span class="experience-tag">
-                Volunteering
-              </span>
-
-              <h3>
-                Tech Event Volunteering
-              </h3>
-
-              <p>
-                Volunteering at technology events, supporting event
-                coordination and attendee check-ins.
+              <p class="job-summary">
+                Built web features with HTML, CSS, JavaScript, PHP and MySQL.
               </p>
 
             </div>
 
           </article>
-
-
-          <!-- MARBEN -->
-
-          <article class="experience-card reveal reveal-delay-1">
-
-            <div class="experience-image">
-
-              <img
-                src="assets/images/marben.jpg"
-                alt="Community and technology engagement"
-                loading="lazy"
-              >
-
-            </div>
-
-            <div class="experience-content">
-
-              <span class="experience-tag">
-                Community
-              </span>
-
-              <h3>
-                Community & Technology Engagement
-              </h3>
-
-              <p>
-                Engaging in practical activities that combine technology,
-                collaboration, communication, and community participation.
-              </p>
-
-            </div>
-
-          </article>
-
-
-          <!-- VMIX CLASS -->
-
-          <article class="experience-card reveal reveal-delay-2">
-
-            <div class="experience-image">
-
-              <img
-                src="assets/images/vmix-class.jpg"
-                alt="vMix training class"
-                loading="lazy"
-              >
-
-            </div>
-
-            <div class="experience-content">
-
-              <span class="experience-tag">
-                Training
-              </span>
-
-              <h3>
-                vMix Training & Mentorship
-              </h3>
-
-              <p>
-                Teaching practical livestreaming and production skills,
-                including the use of vMix for live events and broadcasts.
-              </p>
-
-            </div>
-
-          </article>
-
-
-          <!-- IWD DAY -->
-
-          <article class="experience-card reveal reveal-delay-3">
-
-            <div class="experience-image">
-
-              <img
-                src="assets/images/iwd%20day.jpg"
-                alt="International Women's Day technology outreach"
-                loading="lazy"
-              >
-
-            </div>
-
-            <div class="experience-content">
-
-              <span class="experience-tag">
-                Technology Outreach
-              </span>
-
-              <h3>
-                International Women's Day Outreach
-              </h3>
-
-              <p>
-                Supporting technology-focused outreach activities that
-                encourage digital skills and opportunities for young people.
-              </p>
-
-            </div>
-
-          </article>
-
 
         </div>
 
@@ -872,14 +473,6 @@
               rel="noopener noreferrer"
             >
               View CV
-            </a>
-
-            <a
-              class="btn secondary"
-              href="assets/Patience_Nuhvete_Joshua_..CV.pdf"
-              download
-            >
-              Download CV
             </a>
 
           </div>
@@ -932,14 +525,6 @@
               rel="noopener noreferrer"
             >
               LinkedIn
-            </a>
-
-            <a
-              href="https://orcid.org/0009-0008-9416-284X"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ORCID
             </a>
 
           </div>

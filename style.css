@@ -502,7 +502,7 @@ button {
 .research-grid {
   display: grid;
 
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 
   gap: 1px;
 
@@ -554,9 +554,9 @@ button {
 }
 
 
-/* RESEARCH STUDY */
+/* SUBMITTED PAPERS (inside Research) */
 
-.research-study {
+.research-outputs {
   max-width: 900px;
 
   padding-top: 3rem;
@@ -565,126 +565,13 @@ button {
 }
 
 .study-heading h3 {
-  margin: 0 0 1.2rem;
-
-  font-family: var(--serif);
-
-  font-size: 2rem;
-
-  font-weight: 500;
-}
-
-.research-study > p {
-  color: var(--muted);
-}
-
-.model-comparison {
-  display: grid;
-
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-
-  gap: 1rem;
-
-  margin: 2rem 0;
-}
-
-.model-box {
-  padding: 1.4rem;
-
-  border: 1px solid var(--line);
-
-  background: var(--bg);
-}
-
-.model-label {
-  display: block;
-
-  margin-bottom: 0.3rem;
-
-  color: var(--muted);
-
-  font-size: 0.75rem;
-
-  text-transform: uppercase;
-
-  letter-spacing: 0.08em;
-}
-
-.model-box strong {
-  display: block;
-
-  font-family: var(--serif);
-
-  font-size: 2rem;
-
-  font-weight: 500;
-}
-
-.model-box small {
-  color: var(--muted);
-}
-
-
-/* TABLE */
-
-.table-wrap {
-  width: 100%;
-
-  overflow-x: auto;
-
-  border: 1px solid var(--line);
-}
-
-table {
-  width: 100%;
-
-  border-collapse: collapse;
-
-  background: var(--surface);
-}
-
-th,
-td {
-  padding: 0.9rem 1rem;
-
-  border-bottom: 1px solid var(--line);
-
-  text-align: left;
-
-  font-size: 0.82rem;
-}
-
-th {
-  background: #eeecee;
-}
-
-td {
-  color: var(--muted);
-}
-
-tr:last-child td {
-  border-bottom: none;
-}
-
-.research-note {
-  margin-top: 1.2rem;
-
-  font-size: 0.82rem;
-
-  font-style: italic;
-}
-
-
-/* SUBMITTED PAPERS (inside Research) */
-
-.research-outputs {
-  max-width: 900px;
-
-  margin-top: 4rem;
-}
-
-.research-outputs .study-heading h3 {
   margin: 0 0 1.5rem;
+
+  font-family: var(--serif);
+
+  font-size: 2rem;
+
+  font-weight: 500;
 }
 
 
@@ -750,169 +637,6 @@ tr:last-child td {
 }
 
 
-/* PROJECTS */
-
-.project-grid {
-  display: grid;
-
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-
-  gap: 1.5rem;
-}
-
-.project-card {
-  padding: 2rem;
-
-  border: 1px solid var(--line);
-
-  background: var(--bg);
-
-  transition: transform 0.25s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-4px);
-}
-
-.project-card h3 {
-  margin: 0 0 0.8rem;
-
-  font-family: var(--serif);
-
-  font-size: 1.5rem;
-
-  font-weight: 500;
-}
-
-.project-card p {
-  margin: 0 0 1.2rem;
-
-  color: var(--muted);
-
-  font-size: 0.9rem;
-}
-
-.project-meta {
-  color: var(--accent);
-
-  font-size: 0.72rem;
-
-  font-weight: 700;
-}
-
-
-/* =========================================================
-   EXPERIENCE (image cards)
-========================================================= */
-
-.experience-grid {
-  display: grid;
-
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-
-  gap: 1.5rem;
-
-  margin-top: 2.5rem;
-}
-
-.experience-card {
-  overflow: hidden;
-
-  border: 1px solid var(--line);
-
-  border-radius: 10px;
-
-  background: var(--surface);
-
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
-}
-
-.experience-card:hover {
-  transform: translateY(-5px);
-
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
-}
-
-
-/* IMAGES */
-
-.experience-image {
-  width: 100%;
-
-  height: 230px;
-
-  overflow: hidden;
-
-  background: #e9ebee;
-}
-
-.experience-image img {
-  width: 100%;
-
-  height: 100%;
-
-  display: block;
-
-  object-fit: cover;
-
-  transition: transform 0.45s ease;
-}
-
-.experience-card:hover .experience-image img {
-  transform: scale(1.04);
-}
-
-/* Keep the top of the photo (faces) visible */
-.experience-image img.img-top {
-  object-position: center top;
-}
-
-
-/* EXPERIENCE TEXT */
-
-.experience-content {
-  padding: 1.35rem 1.4rem 1.5rem;
-}
-
-.experience-tag {
-  display: inline-block;
-
-  margin-bottom: 0.55rem;
-
-  color: var(--accent);
-
-  font-size: 0.7rem;
-
-  font-weight: 700;
-
-  letter-spacing: 0.08em;
-
-  text-transform: uppercase;
-}
-
-.experience-content h3 {
-  margin: 0 0 0.65rem;
-
-  font-family: var(--serif);
-
-  font-size: 1.25rem;
-
-  font-weight: 500;
-}
-
-.experience-content p {
-  margin: 0;
-
-  color: var(--muted);
-
-  font-size: 0.92rem;
-
-  line-height: 1.7;
-}
-
-
 /* PROFESSIONAL EXPERIENCE */
 
 .timeline {
@@ -965,18 +689,12 @@ tr:last-child td {
   font-weight: 600;
 }
 
-.job-body ul {
+.job-summary {
   margin: 0;
-
-  padding-left: 1.1rem;
 
   color: var(--muted);
 
   font-size: 0.92rem;
-}
-
-.job-body li + li {
-  margin-top: 0.4rem;
 }
 
 
@@ -1279,22 +997,14 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .experience-grid {
-    grid-template-columns: 1fr;
+  .research-card {
+    min-height: 0;
   }
 
   .job {
     grid-template-columns: 1fr;
 
     gap: 0.7rem;
-  }
-
-  .experience-image {
-    height: 250px;
   }
 
   .cv-box {
@@ -1334,22 +1044,10 @@ footer {
     gap: 0.8rem 1rem;
   }
 
-  .model-comparison {
-    grid-template-columns: 1fr;
-  }
-
   .pub {
     grid-template-columns: 1fr;
 
     gap: 0.7rem;
-  }
-
-  .experience-image {
-    height: 210px;
-  }
-
-  .experience-content {
-    padding: 1.15rem;
   }
 
   .cv-box {
