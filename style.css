@@ -675,7 +675,20 @@ tr:last-child td {
 }
 
 
-/* MANUSCRIPTS */
+/* SUBMITTED PAPERS (inside Research) */
+
+.research-outputs {
+  max-width: 900px;
+
+  margin-top: 4rem;
+}
+
+.research-outputs .study-heading h3 {
+  margin: 0 0 1.5rem;
+}
+
+
+/* PAPER LIST */
 
 .publication-list {
   border-top: 1px solid var(--line);
